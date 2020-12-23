@@ -1,0 +1,428 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Graphics" rel="Chapter" href="Graphics.html"><title>Index of values</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of values</h1>
+<table>
+<tr><td align="left"><div>A</div></td></tr>
+<tr><td><a href="Graphics.html#VALauto_synchronize">auto_synchronize</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>By default, drawing takes place both on the window displayed
+   on screen, and in a memory area (the ``backing store'').</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>B</div></td></tr>
+<tr><td><a href="Graphics.html#VALbackground">background</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>See <a href="Graphics.html#VALforeground"><code class="code">Graphics.foreground</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALblack">black</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td><a href="Graphics.html#VALblit_image">blit_image</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">blit_image img x y</code> copies screen pixels into the image <code class="code">img</code>,
+   modifying <code class="code">img</code> in-place.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALblue">blue</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td><a href="Graphics.html#VALbutton_down">button_down</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return <code class="code">true</code> if the mouse button is pressed, <code class="code">false</code> otherwise.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>C</div></td></tr>
+<tr><td><a href="Graphics.html#VALclear_graph">clear_graph</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Erase the graphics window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALclose_graph">close_graph</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Delete the graphics window or switch the screen back to text mode.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALcreate_image">create_image</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">create_image w h</code> returns a new image <code class="code">w</code> pixels wide and <code class="code">h</code>
+   pixels tall, to be used in conjunction with <code class="code">blit_image</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALcurrent_point">current_point</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the position of the current point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALcurrent_x">current_x</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the abscissa of the current point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALcurrent_y">current_y</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the ordinate of the current point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALcurveto">curveto</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">curveto b c d</code> draws a cubic Bezier curve starting from
+   the current point to point <code class="code">d</code>, with control points <code class="code">b</code> and
+   <code class="code">c</code>, and moves the current point to <code class="code">d</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALcyan">cyan</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>D</div></td></tr>
+<tr><td><a href="Graphics.html#VALdisplay_mode">display_mode</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set display mode on or off.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_arc">draw_arc</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_arc x y rx ry a1 a2</code> draws an elliptical arc with center
+   <code class="code">x,y</code>, horizontal radius <code class="code">rx</code>, vertical radius <code class="code">ry</code>, from angle
+   <code class="code">a1</code> to angle <code class="code">a2</code> (in degrees).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_char">draw_char</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>See <a href="Graphics.html#VALdraw_string"><code class="code">Graphics.draw_string</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_circle">draw_circle</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_circle x y r</code> draws a circle with center <code class="code">x,y</code> and
+   radius <code class="code">r</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_ellipse">draw_ellipse</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_ellipse x y rx ry</code> draws an ellipse with center
+   <code class="code">x,y</code>, horizontal radius <code class="code">rx</code> and vertical radius <code class="code">ry</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_image">draw_image</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Draw the given image with lower left corner at the given point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_poly">draw_poly</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_poly polygon</code> draws the given polygon.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_poly_line">draw_poly_line</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_poly_line points</code> draws the line that joins the
+   points given by the array argument.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_rect">draw_rect</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_rect x y w h</code> draws the rectangle with lower left corner
+   at <code class="code">x,y</code>, width <code class="code">w</code> and height <code class="code">h</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_segments">draw_segments</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">draw_segments segments</code> draws the segments given in the array
+   argument.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdraw_string">draw_string</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Draw a character or a character string with lower left corner
+   at current position.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALdump_image">dump_image</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Convert an image to a color matrix.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>F</div></td></tr>
+<tr><td><a href="Graphics.html#VALfill_arc">fill_arc</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Fill an elliptical pie slice with the current color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALfill_circle">fill_circle</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Fill a circle with the current color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALfill_ellipse">fill_ellipse</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Fill an ellipse with the current color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALfill_poly">fill_poly</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Fill the given polygon with the current color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALfill_rect">fill_rect</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">fill_rect x y w h</code> fills the rectangle with lower left corner
+   at <code class="code">x,y</code>, width <code class="code">w</code> and height <code class="code">h</code>, with the current color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALforeground">foreground</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Default background and foreground colors (usually, either black
+   foreground on a white background or white foreground on a
+   black background).</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>G</div></td></tr>
+<tr><td><a href="Graphics.html#VALget_image">get_image</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Capture the contents of a rectangle on the screen as an image.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALgreen">green</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>K</div></td></tr>
+<tr><td><a href="Graphics.html#VALkey_pressed">key_pressed</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return <code class="code">true</code> if a keypress is available; that is, if <code class="code">read_key</code>
+   would not block.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>L</div></td></tr>
+<tr><td><a href="Graphics.html#VALlineto">lineto</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Draw a line with endpoints the current point and the given point,
+   and move the current point to the given point.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>M</div></td></tr>
+<tr><td><a href="Graphics.html#VALmagenta">magenta</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td><a href="Graphics.html#VALmake_image">make_image</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Convert the given color matrix to an image.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALmouse_pos">mouse_pos</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the position of the mouse cursor, relative to the
+   graphics window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALmoveto">moveto</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Position the current point.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>O</div></td></tr>
+<tr><td><a href="Graphics.html#VALopen_graph">open_graph</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Show the graphics window or switch the screen to graphic mode.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>P</div></td></tr>
+<tr><td><a href="Graphics.html#VALplot">plot</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Plot the given point with the current drawing color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALplots">plots</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Plot the given points with the current drawing color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALpoint_color">point_color</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the color of the given point in the backing store
+   (see "Double buffering" below).</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>R</div></td></tr>
+<tr><td><a href="Graphics.html#VALread_key">read_key</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Wait for a key to be pressed, and return the corresponding
+   character.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALred">red</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td><a href="Graphics.html#VALremember_mode">remember_mode</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set remember mode on or off.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALresize_window">resize_window</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Resize and erase the graphics window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALrgb">rgb</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">rgb r g b</code> returns the integer encoding the color with red
+   component <code class="code">r</code>, green component <code class="code">g</code>, and blue component <code class="code">b</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALrlineto">rlineto</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Draw a line with endpoints the current point and the
+   current point translated of the given vector,
+   and move the current point to this point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALrmoveto">rmoveto</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">rmoveto dx dy</code> translates the current point by the given vector.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>S</div></td></tr>
+<tr><td><a href="Graphics.html#VALset_color">set_color</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set the current drawing color.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALset_font">set_font</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set the font used for drawing text.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALset_line_width">set_line_width</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set the width of points and lines drawn with the functions above.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALset_text_size">set_text_size</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set the character size used for drawing text.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALset_window_title">set_window_title</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Set the title of the graphics window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALsize_x">size_x</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>See <a href="Graphics.html#VALsize_y"><code class="code">Graphics.size_y</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALsize_y">size_y</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the size of the graphics window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALsound">sound</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p><code class="code">sound freq dur</code> plays a sound at frequency <code class="code">freq</code> (in hertz)
+   for a duration <code class="code">dur</code> (in milliseconds).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALsynchronize">synchronize</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Synchronize the backing store and the on-screen window, by
+   copying the contents of the backing store onto the graphics
+   window.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>T</div></td></tr>
+<tr><td><a href="Graphics.html#VALtext_size">text_size</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Return the dimensions of the given text, if it were drawn with
+   the current font and size.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALtransp">transp</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>In matrices of colors, this color represent a ``transparent''
+   point: when drawing the corresponding image, all pixels on the
+   screen corresponding to a transparent pixel in the image will
+   not be modified, while other points will be set to the color
+   of the corresponding point in the image.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>W</div></td></tr>
+<tr><td><a href="Graphics.html#VALwait_next_event">wait_next_event</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td><div class="info">
+<p>Wait until one of the events specified in the given event list
+   occurs, and return the status of the mouse and keyboard at
+   that time.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Graphics.html#VALwhite">white</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>Y</div></td></tr>
+<tr><td><a href="Graphics.html#VALyellow">yellow</a> [<a href="Graphics.html">Graphics</a>]</td>
+<td></td></tr>
+</table>
+</body>
+</html>
